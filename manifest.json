@@ -10,9 +10,6 @@
       "js": ["jquery-3.4.1.min.js"]
     }
   ],
-  "background": {
-    "scripts": ["background.js"]
-  },
   "permissions": [
     "storage",
     "tabs"

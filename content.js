@@ -5,8 +5,6 @@ $(document).ready(function(){
     currentWindow: true
   };
 
-  $('.container').addClass('jquery');
-
   $('#pin-link').click(() => {
     chrome.tabs.query(queryInfo, function(tabs) {
       // chrome.tabs.query invokes the callback with a list of tabs that match the
